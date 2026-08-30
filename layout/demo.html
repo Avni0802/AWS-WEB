@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <style>
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        html{
+            margin: 0% ;
+            padding: 0%;
+        }
+        body{
+            background-color: #181818;
+        }
+        main{
+            width: 900px;
+            height: 1000px;
+            background-color:#ccc;
+            margin: 0%auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        header{
+            width: 950px;
+            height: 100px;
+            background-color:#ea71d2;
+        }
+        nav{
+            width: 500px ;
+            height:150px ;
+            background-color:#d5e974;
+        }
+        #left{
+            flex-grow: 1;
+            background-color:#8b36cb;
+        }
+       #right{
+        flex-grow: 1;
+         background-color: #c8f6f6;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+    }
+    section{width: 960px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+    aside,article{
+        background-color: #a3e93a;
+        flex-grow: 1;
+    }
+    footer{
+        width: 960px;
+        height: 300px;
+        background-color: #eda6a6;
+    }
+
+
+        
+    
+    </style>
+</head>
+<body>
+    <main>
+        <header><h2>Header</h2></header>
+        <!--NAV-->
+        <nav><h2>Navbar</h2></nav>
+        <!--SECTION-->
+        <section>
+            <div id="left">
+            </div>
+            <div id="right">
+            </div>
+
+        </section>
+        <!--footer-->
+        <footer><h2>Footer</h2></footer>
+        
+
+    </main>
+    <h1></h1>
+</body>
+</html>
