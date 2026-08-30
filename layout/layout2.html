@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *html{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        main{
+            width:960px;
+            height:1000px ;
+            margin: 0%;
+            display: grid;
+            grid-template-columns: 1;
+            grid-template-rows: 100px 88px 400px 300px;
+            gap: 10px;
+            text-align:center ;
+        }
+        main div {
+            background-color: #ccc;
+            align-content: center;
+        }
+        #section{
+
+        display:grid ;
+        grid-template-columns: 20% 30% 50% ;
+        grid-template-rows: 1;
+        column-gap: 10px;
+        justify-content: space-between;
+        }
+        #section div{
+            background-color: #999;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Header</h2></div>
+            <div>
+                <h2>nav</h2>
+            </div>
+            <div><h2>section</h2></div>
+            <div id="section">
+                <div>box1</div>
+                <div>box2</div>
+                <div>box3</div>
+            </div>
+        
+    </main>
+    
+</body>
+</html>
