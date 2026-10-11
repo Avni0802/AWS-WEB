@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #34061e;
+            margin: 0;
+        }
+
+        
+        header {
+            background-color: #34061e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-style: italic;
+        }
+
+        
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            background-color: #6b465b;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            
+        }
+
+        nav a:hover {
+            background-color: #e8a1bd;
+            color: #34061e;
+        }
+
+        
+        .menu h2 {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+
+        
+        .food {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .food div {
+            background-color: white;
+            color: #34061e;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px gray;
+            text-align: center;
+        }
+
+        
+        .food img {
+            width: 100%;
+            height: 160px;
+            border-radius: 8px;
+        }
+
+
+        
+        footer {
+            background-color: #210313;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header id="home">
+        <h1>Delicious Spoon</h1>
+        <p>Great Food, Great Day!</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <section class="menu" id="menu">
+
+        <h2>Our Delicious Menu</h2>
+
+        <section class="food">
+
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+                    alt="Burger">
+                <h3>Burger</h3>
+                <p>Thick, juicy patty in a warm, toasted bun.</p>
+                <p>₹179</p>
+                
+            </div>
+
+           
+            <div>
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500"
+                    alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Delicious pizza topped with cheese and vegetables.</p>
+                <p >₹249</p>
+                
+            </div>
+
+           
+            <div>
+                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500"
+                    alt="Samosa">
+                <h3>Samosa</h3>
+                <p>Crispy pastry filled with spicy potatoes and peas.</p>
+                <p > ₹30</p>
+                
+            </div>
+
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500"
+                    alt="French Fries">
+                <h3>French Fries</h3>
+                <p>Golden, crispy fries that are soft inside.</p>
+                <p >₹99</p>
+                
+            </div>
+
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=500"
+                    alt="Pasta">
+                <h3>White Sauce Pasta</h3>
+                <p>Creamy pasta with delicious white sauce and herbs.</p>
+                <p >₹199</p>
+               
+            </div>
+
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500"
+                    alt="Sandwich">
+                <h3>Grilled Sandwich</h3>
+                <p>Fresh vegetables and cheese in toasted bread.</p>
+                <p>₹99</p>
+                
+            </div>
+
+    
+            <div>
+                <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=500"
+                    alt="Momos">
+                <h3>Veg Momos</h3>
+                <p>Steamed dumplings served with spicy red chutney.</p>
+                <p>₹89</p>
+                
+            </div>
+
+            
+            <div>
+                <img src="https://media.istockphoto.com/id/1959473301/photo/indian-biryani-food-spicy-mutton-and-chicken-biryani-food-arab-food-kabsah-mandi-or-kabsa.jpg?s=612x612&w=0&k=20&c=mqhnSsAKBW2O0W4QxeKfejGgBBWCbquGCm0Aar9Wl6w="
+                    alt="Biryani">
+                <h3>Veg Biryani</h3>
+                <p>Flavorful rice cooked with aromatic spices.</p>
+                <p>₹179</p>
+                
+            </div>
+
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+                    alt="Ice Cream">
+                <h3>Ice Cream</h3>
+                <p>A sweet and creamy dessert to end your meal.</p>
+                <p>₹79</p>
+                
+            </div>
+
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500"
+                    alt="Cold Coffee">
+                <h3>Cold Coffee</h3>
+                <p>Chilled coffee with a rich and creamy taste.</p>
+                <p>₹119</p>
+                
+            </div>
+
+        </section>
+    </section>
+
+    
+    <footer id="contact">
+        <h3>Delicious Spoon</h3>
+        <p>Thank you for visiting!</p>
+        <p>Contact: 9876543210</p>
+        <p>© 2026 Delicious Spoon. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
